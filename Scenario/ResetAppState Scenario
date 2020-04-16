@@ -1,0 +1,17 @@
+Note : to verify reset app state function work properly
+
+Go to URL https://www.saucedemo.com/
+input username (standard_user)
+input password (secret_sauce)
+click login button
+
+verify label "Product" present
+select product
+verify item on cart >=1 
+
+click open menu button
+click menu reset app state
+click close menu
+
+verify item on cart == 0
+verify all product button label is ADD TO CART

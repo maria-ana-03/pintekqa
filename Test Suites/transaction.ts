@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>transaction</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>d272dbb4-6acd-472f-a03d-101659043059</testSuiteGuid>
+   <testCaseLink>
+      <guid>cb8c2399-70b5-4358-bf8d-2235204fe419</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/transaction</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>2c34c7eb-5f9b-419a-86ca-d70943671701</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/transaction</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>2c34c7eb-5f9b-419a-86ca-d70943671701</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>firstName</value>
+         <variableId>f3f3dcb2-8cca-4efc-978d-2880d15f5bec</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>2c34c7eb-5f9b-419a-86ca-d70943671701</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>lastName</value>
+         <variableId>839a8220-ef41-45ec-bf4a-9af0fc61cef3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>2c34c7eb-5f9b-419a-86ca-d70943671701</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>postalCode</value>
+         <variableId>f50145b5-df60-450d-b4fc-c9691088b6a4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>2c34c7eb-5f9b-419a-86ca-d70943671701</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>scenario</value>
+         <variableId>0349f761-cdd4-491c-a600-a7f0cb38bf92</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>2c34c7eb-5f9b-419a-86ca-d70943671701</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>note</value>
+         <variableId>7ef92185-2304-41b6-bf55-e5c70a1499a7</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

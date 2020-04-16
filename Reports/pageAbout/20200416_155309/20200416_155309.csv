@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+pageAbout,Chrome 80.0.3987.163,,,2020-04-16 15:53:11,2020-04-16 15:53:20,9.780s,ERROR
+,,,,,,,
+Test Cases/login,Chrome 80.0.3987.163,,,2020-04-16 15:53:11,2020-04-16 15:53:19,7.838s,PASSED
+"openBrowser(""https://www.saucedemo.com/"")",Chrome 80.0.3987.163,,,2020-04-16 15:53:11,2020-04-16 15:53:14,2.789s,PASSED
+delay(2),Chrome 80.0.3987.163,,,2020-04-16 15:53:14,2020-04-16 15:53:16,2.029s,PASSED
+"setText(findTestObject(""Object Repository/saucedemo/input_username""), ""standard_user"")",Chrome 80.0.3987.163,,,2020-04-16 15:53:16,2020-04-16 15:53:16,0.197s,PASSED
+"setText(findTestObject(""Object Repository/saucedemo/input_password""), ""secret_sauce"")",Chrome 80.0.3987.163,,,2020-04-16 15:53:16,2020-04-16 15:53:16,0.100s,PASSED
+"click(findTestObject(""Object Repository/saucedemo/button_login""))",Chrome 80.0.3987.163,,,2020-04-16 15:53:16,2020-04-16 15:53:18,1.481s,PASSED
+delay(1),Chrome 80.0.3987.163,,,2020-04-16 15:53:18,2020-04-16 15:53:19,1.007s,PASSED
+,,,,,,,
+Test Cases/page_about,Chrome 80.0.3987.163,,,2020-04-16 15:53:19,2020-04-16 15:53:20,1.622s,ERROR
+"callTestCase(findTestCase(""login""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.163,,,2020-04-16 15:53:19,2020-04-16 15:53:19,0.004s,NOT_RUN
+comment(note),Chrome 80.0.3987.163,,,2020-04-16 15:53:19,2020-04-16 15:53:19,0.012s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/saucedemo/label_Products""), 3)",Chrome 80.0.3987.163,,,2020-04-16 15:53:19,2020-04-16 15:53:19,0.076s,PASSED
+"click(findTestObject(""Object Repository/saucedemo/button_open menu""))",Chrome 80.0.3987.163,,,2020-04-16 15:53:19,2020-04-16 15:53:19,0.052s,PASSED
+"pageAbout = getAttribute(findTestObject(""Object Repository/saucedemo/menu_About""), ""href"")",Chrome 80.0.3987.163,,,2020-04-16 15:53:19,2020-04-16 15:53:19,0.058s,PASSED
+navigateToUrl(pageAbout),Chrome 80.0.3987.163,,,2020-04-16 15:53:19,2020-04-16 15:53:20,0.831s,PASSED
+takeScreenshot(),Chrome 80.0.3987.163,,,2020-04-16 15:53:20,2020-04-16 15:53:20,0.332s,PASSED
+"verifyLinksAccessible(pageAbout, CONTINUE_ON_FAILURE)",Chrome 80.0.3987.163,,,2020-04-16 15:53:20,2020-04-16 15:53:20,0.002s,PASSED

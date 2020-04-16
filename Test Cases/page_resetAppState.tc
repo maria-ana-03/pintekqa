@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>page_resetAppState</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>03c3aa03-4185-4e13-a39d-e6f6393dfe3a</testCaseGuid>
+   <variable>
+      <defaultValue>'Verify reset app state function work properly'</defaultValue>
+      <description></description>
+      <id>564e9b99-71d0-43f5-a40b-6675e90f6e9e</id>
+      <masked>false</masked>
+      <name>note</name>
+   </variable>
+</TestCaseEntity>

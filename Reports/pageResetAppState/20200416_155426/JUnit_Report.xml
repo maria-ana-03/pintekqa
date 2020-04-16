@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="pageResetAppState" time="9" tests="1" failures="1" errors="0">
+   <testsuite name="pageResetAppState" tests="1" failures="1" errors="0" time="9" timestamp="2020-04-16 15:54:28" hostname="mariaana - 192.168.0.25" id="Test Suites/pageResetAppState">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/mariaana/Katalon Studio/Pintek.id/Reports/pageResetAppState/20200416_155426"/>
+         <property name="logFiles" value="/Users/mariaana/Katalon Studio/Pintek.id/Reports/pageResetAppState/20200416_155426/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="mariaana - 192.168.0.25"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="6.1.2.2"/>
+         <property name="browser" value="Chrome 80.0.3987.163"/>
+         <property name="hostAddress" value="192.168.0.25"/>
+         <property name="sessionId" value="d6fee9b1ef461c5eb169b84a380c66c4"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/login" classname="Test Cases/login" status="PASSED">
+         <system-out><![CDATA[2020-04-16 15:54:29 - [TEST_CASE][PASSED] - Test Cases/login: Test Cases/login
+
+2020-04-16 15:54:29 - [TEST_STEP][PASSED] - openBrowser("https://www.saucedemo.com/"): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2020-04-16 15:54:29 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2020-04-16 15:54:29 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-04-16 15:54:32 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2020-04-16 15:54:32 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-04-16 15:54:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-04-16 15:54:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/saucedemo/input_username"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/saucedemo/input_username'
+
+2020-04-16 15:54:34 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/saucedemo/input_username'
+
+2020-04-16 15:54:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/saucedemo/input_password"), "secret_sauce"): Text 'secret_sauce' is set on object 'Object Repository/saucedemo/input_password'
+
+2020-04-16 15:54:34 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/saucedemo/input_password'
+
+2020-04-16 15:54:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/saucedemo/button_login")): Object: 'Object Repository/saucedemo/button_login' is clicked on
+
+2020-04-16 15:54:36 - [MESSAGE][PASSED] - Object: 'Object Repository/saucedemo/button_login' is clicked on
+
+2020-04-16 15:54:36 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-04-16 15:54:37 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/page_resetAppState" classname="Test Cases/page_resetAppState" status="FAILED">
+         <failure type="FAILED" message="Test Cases/page_resetAppState FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'REMOVE' and expected text 'ADD TO CART' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at page_resetAppState.run(page_resetAppState:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1587027266854.run(TempTestSuite1587027266854.groovy:35)
+"/>
+         <system-out><![CDATA[2020-04-16 15:54:37 - [TEST_CASE][FAILED] - Test Cases/page_resetAppState: Test Cases/page_resetAppState FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'REMOVE' and expected text 'ADD TO CART' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at page_resetAppState.run(page_resetAppState:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1587027266854.run(TempTestSuite1587027266854.groovy:35)
+
+
+2020-04-16 15:54:37 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("login"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("login"), [:], STOP_ON_FAILURE)
+
+2020-04-16 15:54:37 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("login"), [:], STOP_ON_FAILURE)
+
+2020-04-16 15:54:37 - [TEST_STEP][PASSED] - comment(note): Verify reset app state function work properly
+
+2020-04-16 15:54:37 - [MESSAGE][INFO] - Verify reset app state function work properly
+
+2020-04-16 15:54:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/saucedemo/label_Products"), 3): Object 'Object Repository/saucedemo/label_Products' is present
+
+2020-04-16 15:54:37 - [MESSAGE][PASSED] - Object 'Object Repository/saucedemo/label_Products' is present
+
+2020-04-16 15:54:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/saucedemo/button_ADD TO CART")): Object: 'Object Repository/saucedemo/button_ADD TO CART' is clicked on
+
+2020-04-16 15:54:37 - [MESSAGE][PASSED] - Object: 'Object Repository/saucedemo/button_ADD TO CART' is clicked on
+
+2020-04-16 15:54:37 - [TEST_STEP][PASSED] - itemOnCart = getText(findTestObject("Object Repository/saucedemo/label_numberOfItem")): Text of object 'Object Repository/saucedemo/label_numberOfItem' is: '1'
+
+2020-04-16 15:54:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/saucedemo/label_numberOfItem' is: '1'
+
+2020-04-16 15:54:37 - [TEST_STEP][PASSED] - verifyNotMatch(itemOnCart, "0", false): Actual text '1' and expected text '0' are not matched 
+
+2020-04-16 15:54:37 - [MESSAGE][PASSED] - Actual text '1' and expected text '0' are not matched 
+
+2020-04-16 15:54:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/saucedemo/button_open menu")): Object: 'Object Repository/saucedemo/button_open menu' is clicked on
+
+2020-04-16 15:54:37 - [MESSAGE][PASSED] - Object: 'Object Repository/saucedemo/button_open menu' is clicked on
+
+2020-04-16 15:54:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/saucedemo/menu_Reset App State")): Object: 'Object Repository/saucedemo/menu_Reset App State' is clicked on
+
+2020-04-16 15:54:37 - [MESSAGE][PASSED] - Object: 'Object Repository/saucedemo/menu_Reset App State' is clicked on
+
+2020-04-16 15:54:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/saucedemo/close menu")): Object: 'Object Repository/saucedemo/close menu' is clicked on
+
+2020-04-16 15:54:37 - [MESSAGE][PASSED] - Object: 'Object Repository/saucedemo/close menu' is clicked on
+
+2020-04-16 15:54:37 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Object Repository/saucedemo/label_numberOfItem"), 3): Web element with id: 'Object Repository/saucedemo/label_numberOfItem' located by 'By.xpath: //*[@id="shopping_cart_container"]/a/span' is not present after '3' second(s)
+
+2020-04-16 15:54:37 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/saucedemo/label_numberOfItem' located by 'By.xpath: //*[@id="shopping_cart_container"]/a/span' is not present after '3' second(s)
+
+2020-04-16 15:54:37 - [TEST_STEP][PASSED] - buttonLabel = getText(findTestObject("Object Repository/saucedemo/button_ADD TO CART")): Text of object 'Object Repository/saucedemo/button_ADD TO CART' is: 'REMOVE'
+
+2020-04-16 15:54:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/saucedemo/button_ADD TO CART' is: 'REMOVE'
+
+2020-04-16 15:54:37 - [TEST_STEP][FAILED] - verifyMatch(buttonLabel, "ADD TO CART", false): Unable to verify match between actual text 'REMOVE' and expected text 'ADD TO CART' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'REMOVE' and expected text 'ADD TO CART' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at page_resetAppState.run(page_resetAppState:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1587027266854.run(TempTestSuite1587027266854.groovy:35)
+)
+
+2020-04-16 15:54:37 - [MESSAGE][FAILED] - Unable to verify match between actual text 'REMOVE' and expected text 'ADD TO CART' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'REMOVE' and expected text 'ADD TO CART' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at page_resetAppState.run(page_resetAppState:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1587027266854.run(TempTestSuite1587027266854.groovy:35)
+)]]></system-out>
+         <system-err><![CDATA[2020-04-16 15:54:37 - [TEST_CASE][FAILED] - Test Cases/page_resetAppState: Test Cases/page_resetAppState FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'REMOVE' and expected text 'ADD TO CART' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at page_resetAppState.run(page_resetAppState:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1587027266854.run(TempTestSuite1587027266854.groovy:35)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-04-16 15:54:28 - [TEST_SUITE][FAILED] - pageResetAppState: Test Cases/page_resetAppState FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'REMOVE' and expected text 'ADD TO CART' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at page_resetAppState.run(page_resetAppState:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1587027266854.run(TempTestSuite1587027266854.groovy:35)]]></system-out>
+      <system-err><![CDATA[2020-04-16 15:54:28 - [TEST_SUITE][FAILED] - pageResetAppState: Test Cases/page_resetAppState FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'REMOVE' and expected text 'ADD TO CART' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at page_resetAppState.run(page_resetAppState:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1587027266854.run(TempTestSuite1587027266854.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>

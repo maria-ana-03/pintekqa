@@ -1,0 +1,99 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+transaction,Chrome 80.0.3987.163,,,2020-04-16 21:02:38,2020-04-16 21:03:56,1m - 18.322s,FAILED
+,,,,,,,
+Test Cases/transaction,Chrome 80.0.3987.163,,,2020-04-16 21:02:38,2020-04-16 21:02:56,17.576s,PASSED
+"callTestCase(findTestCase(""login""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.163,,,2020-04-16 21:02:38,2020-04-16 21:02:51,13.032s,PASSED
+comment(note),Chrome 80.0.3987.163,,,2020-04-16 21:02:51,2020-04-16 21:02:51,0.006s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/saucedemo/label_Products""), 3)",Chrome 80.0.3987.163,,,2020-04-16 21:02:51,2020-04-16 21:02:52,0.068s,PASSED
+"click(findTestObject(""Object Repository/saucedemo/button_ADD TO CART""))",Chrome 80.0.3987.163,,,2020-04-16 21:02:52,2020-04-16 21:02:52,0.062s,PASSED
+"itemOnCart = getText(findTestObject(""Object Repository/saucedemo/label_numberOfItem""))",Chrome 80.0.3987.163,,,2020-04-16 21:02:52,2020-04-16 21:02:52,0.046s,PASSED
+"verifyNotMatch(itemOnCart, ""0"", false)",Chrome 80.0.3987.163,,,2020-04-16 21:02:52,2020-04-16 21:02:52,0.005s,PASSED
+"click(findTestObject(""Object Repository/saucedemo/button_cart""))",Chrome 80.0.3987.163,,,2020-04-16 21:02:52,2020-04-16 21:02:52,0.490s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/saucedemo/label_Your Cart""), 3)",Chrome 80.0.3987.163,,,2020-04-16 21:02:52,2020-04-16 21:02:52,0.039s,PASSED
+"click(findTestObject(""Object Repository/saucedemo/button_checkout""))",Chrome 80.0.3987.163,,,2020-04-16 21:02:52,2020-04-16 21:02:53,0.429s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/saucedemo/label_Checkout Your Information""), 3)",Chrome 80.0.3987.163,,,2020-04-16 21:02:53,2020-04-16 21:02:53,0.024s,PASSED
+"setText(findTestObject(""Object Repository/saucedemo/input_firstName""), firstName)",Chrome 80.0.3987.163,,,2020-04-16 21:02:53,2020-04-16 21:02:53,0.090s,PASSED
+"setText(findTestObject(""Object Repository/saucedemo/input_lastName""), lastName)",Chrome 80.0.3987.163,,,2020-04-16 21:02:53,2020-04-16 21:02:53,0.085s,PASSED
+"setText(findTestObject(""Object Repository/saucedemo/input_postalCode""), postalCode)",Chrome 80.0.3987.163,,,2020-04-16 21:02:53,2020-04-16 21:02:53,0.078s,PASSED
+"click(findTestObject(""Object Repository/saucedemo/button_continue""))",Chrome 80.0.3987.163,,,2020-04-16 21:02:53,2020-04-16 21:02:53,0.526s,PASSED
+"if (scenario == ""pos"")",Chrome 80.0.3987.163,,,2020-04-16 21:02:53,2020-04-16 21:02:54,0.882s,PASSED
+takeScreenshot(),Chrome 80.0.3987.163,,,2020-04-16 21:02:54,2020-04-16 21:02:55,0.401s,PASSED
+delay(1),Chrome 80.0.3987.163,,,2020-04-16 21:02:55,2020-04-16 21:02:56,1.005s,PASSED
+,,,,,,,
+Test Cases/transaction,Chrome 80.0.3987.163,,,2020-04-16 21:02:56,2020-04-16 21:03:11,14.877s,PASSED
+"callTestCase(findTestCase(""login""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.163,,,2020-04-16 21:02:56,2020-04-16 21:03:08,11.904s,PASSED
+comment(note),Chrome 80.0.3987.163,,,2020-04-16 21:03:08,2020-04-16 21:03:08,0.002s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/saucedemo/label_Products""), 3)",Chrome 80.0.3987.163,,,2020-04-16 21:03:08,2020-04-16 21:03:08,0.037s,PASSED
+"click(findTestObject(""Object Repository/saucedemo/button_ADD TO CART""))",Chrome 80.0.3987.163,,,2020-04-16 21:03:08,2020-04-16 21:03:08,0.056s,PASSED
+"itemOnCart = getText(findTestObject(""Object Repository/saucedemo/label_numberOfItem""))",Chrome 80.0.3987.163,,,2020-04-16 21:03:08,2020-04-16 21:03:08,0.039s,PASSED
+"verifyNotMatch(itemOnCart, ""0"", false)",Chrome 80.0.3987.163,,,2020-04-16 21:03:08,2020-04-16 21:03:08,0.002s,PASSED
+"click(findTestObject(""Object Repository/saucedemo/button_cart""))",Chrome 80.0.3987.163,,,2020-04-16 21:03:08,2020-04-16 21:03:09,0.773s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/saucedemo/label_Your Cart""), 3)",Chrome 80.0.3987.163,,,2020-04-16 21:03:09,2020-04-16 21:03:09,0.018s,PASSED
+"click(findTestObject(""Object Repository/saucedemo/button_checkout""))",Chrome 80.0.3987.163,,,2020-04-16 21:03:09,2020-04-16 21:03:09,0.290s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/saucedemo/label_Checkout Your Information""), 3)",Chrome 80.0.3987.163,,,2020-04-16 21:03:09,2020-04-16 21:03:09,0.016s,PASSED
+"setText(findTestObject(""Object Repository/saucedemo/input_firstName""), firstName)",Chrome 80.0.3987.163,,,2020-04-16 21:03:09,2020-04-16 21:03:09,0.068s,PASSED
+"setText(findTestObject(""Object Repository/saucedemo/input_lastName""), lastName)",Chrome 80.0.3987.163,,,2020-04-16 21:03:09,2020-04-16 21:03:09,0.103s,PASSED
+"setText(findTestObject(""Object Repository/saucedemo/input_postalCode""), postalCode)",Chrome 80.0.3987.163,,,2020-04-16 21:03:09,2020-04-16 21:03:09,0.109s,PASSED
+"click(findTestObject(""Object Repository/saucedemo/button_continue""))",Chrome 80.0.3987.163,,,2020-04-16 21:03:09,2020-04-16 21:03:09,0.061s,PASSED
+"if (scenario == ""pos"")",Chrome 80.0.3987.163,,,2020-04-16 21:03:09,2020-04-16 21:03:09,0.001s,PASSED
+"else if (scenario == ""neg"")",Chrome 80.0.3987.163,,,2020-04-16 21:03:09,2020-04-16 21:03:09,0.043s,PASSED
+takeScreenshot(),Chrome 80.0.3987.163,,,2020-04-16 21:03:09,2020-04-16 21:03:10,0.328s,PASSED
+delay(1),Chrome 80.0.3987.163,,,2020-04-16 21:03:10,2020-04-16 21:03:11,1.006s,PASSED
+,,,,,,,
+Test Cases/transaction,Chrome 80.0.3987.163,,,2020-04-16 21:03:11,2020-04-16 21:03:24,13.122s,PASSED
+"callTestCase(findTestCase(""login""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.163,,,2020-04-16 21:03:11,2020-04-16 21:03:21,10.642s,PASSED
+comment(note),Chrome 80.0.3987.163,,,2020-04-16 21:03:21,2020-04-16 21:03:21,0.002s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/saucedemo/label_Products""), 3)",Chrome 80.0.3987.163,,,2020-04-16 21:03:21,2020-04-16 21:03:21,0.016s,PASSED
+"click(findTestObject(""Object Repository/saucedemo/button_ADD TO CART""))",Chrome 80.0.3987.163,,,2020-04-16 21:03:21,2020-04-16 21:03:21,0.053s,PASSED
+"itemOnCart = getText(findTestObject(""Object Repository/saucedemo/label_numberOfItem""))",Chrome 80.0.3987.163,,,2020-04-16 21:03:21,2020-04-16 21:03:21,0.030s,PASSED
+"verifyNotMatch(itemOnCart, ""0"", false)",Chrome 80.0.3987.163,,,2020-04-16 21:03:21,2020-04-16 21:03:21,0.001s,PASSED
+"click(findTestObject(""Object Repository/saucedemo/button_cart""))",Chrome 80.0.3987.163,,,2020-04-16 21:03:21,2020-04-16 21:03:22,0.313s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/saucedemo/label_Your Cart""), 3)",Chrome 80.0.3987.163,,,2020-04-16 21:03:22,2020-04-16 21:03:22,0.018s,PASSED
+"click(findTestObject(""Object Repository/saucedemo/button_checkout""))",Chrome 80.0.3987.163,,,2020-04-16 21:03:22,2020-04-16 21:03:22,0.331s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/saucedemo/label_Checkout Your Information""), 3)",Chrome 80.0.3987.163,,,2020-04-16 21:03:22,2020-04-16 21:03:22,0.015s,PASSED
+"setText(findTestObject(""Object Repository/saucedemo/input_firstName""), firstName)",Chrome 80.0.3987.163,,,2020-04-16 21:03:22,2020-04-16 21:03:22,0.088s,PASSED
+"setText(findTestObject(""Object Repository/saucedemo/input_lastName""), lastName)",Chrome 80.0.3987.163,,,2020-04-16 21:03:22,2020-04-16 21:03:22,0.066s,PASSED
+"setText(findTestObject(""Object Repository/saucedemo/input_postalCode""), postalCode)",Chrome 80.0.3987.163,,,2020-04-16 21:03:22,2020-04-16 21:03:22,0.081s,PASSED
+"click(findTestObject(""Object Repository/saucedemo/button_continue""))",Chrome 80.0.3987.163,,,2020-04-16 21:03:22,2020-04-16 21:03:22,0.079s,PASSED
+"if (scenario == ""pos"")",Chrome 80.0.3987.163,,,2020-04-16 21:03:22,2020-04-16 21:03:22,0.000s,PASSED
+"else if (scenario == ""neg"")",Chrome 80.0.3987.163,,,2020-04-16 21:03:22,2020-04-16 21:03:22,0.027s,PASSED
+takeScreenshot(),Chrome 80.0.3987.163,,,2020-04-16 21:03:22,2020-04-16 21:03:23,0.333s,PASSED
+delay(1),Chrome 80.0.3987.163,,,2020-04-16 21:03:23,2020-04-16 21:03:24,1.004s,PASSED
+,,,,,,,
+Test Cases/transaction,Chrome 80.0.3987.163,,,2020-04-16 21:03:24,2020-04-16 21:03:37,13.414s,PASSED
+"callTestCase(findTestCase(""login""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.163,,,2020-04-16 21:03:24,2020-04-16 21:03:35,10.891s,PASSED
+comment(note),Chrome 80.0.3987.163,,,2020-04-16 21:03:35,2020-04-16 21:03:35,0.002s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/saucedemo/label_Products""), 3)",Chrome 80.0.3987.163,,,2020-04-16 21:03:35,2020-04-16 21:03:35,0.059s,PASSED
+"click(findTestObject(""Object Repository/saucedemo/button_ADD TO CART""))",Chrome 80.0.3987.163,,,2020-04-16 21:03:35,2020-04-16 21:03:35,0.056s,PASSED
+"itemOnCart = getText(findTestObject(""Object Repository/saucedemo/label_numberOfItem""))",Chrome 80.0.3987.163,,,2020-04-16 21:03:35,2020-04-16 21:03:35,0.051s,PASSED
+"verifyNotMatch(itemOnCart, ""0"", false)",Chrome 80.0.3987.163,,,2020-04-16 21:03:35,2020-04-16 21:03:35,0.002s,PASSED
+"click(findTestObject(""Object Repository/saucedemo/button_cart""))",Chrome 80.0.3987.163,,,2020-04-16 21:03:35,2020-04-16 21:03:35,0.307s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/saucedemo/label_Your Cart""), 3)",Chrome 80.0.3987.163,,,2020-04-16 21:03:35,2020-04-16 21:03:35,0.034s,PASSED
+"click(findTestObject(""Object Repository/saucedemo/button_checkout""))",Chrome 80.0.3987.163,,,2020-04-16 21:03:35,2020-04-16 21:03:36,0.290s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/saucedemo/label_Checkout Your Information""), 3)",Chrome 80.0.3987.163,,,2020-04-16 21:03:36,2020-04-16 21:03:36,0.019s,PASSED
+"setText(findTestObject(""Object Repository/saucedemo/input_firstName""), firstName)",Chrome 80.0.3987.163,,,2020-04-16 21:03:36,2020-04-16 21:03:36,0.097s,PASSED
+"setText(findTestObject(""Object Repository/saucedemo/input_lastName""), lastName)",Chrome 80.0.3987.163,,,2020-04-16 21:03:36,2020-04-16 21:03:36,0.085s,PASSED
+"setText(findTestObject(""Object Repository/saucedemo/input_postalCode""), postalCode)",Chrome 80.0.3987.163,,,2020-04-16 21:03:36,2020-04-16 21:03:36,0.078s,PASSED
+"click(findTestObject(""Object Repository/saucedemo/button_continue""))",Chrome 80.0.3987.163,,,2020-04-16 21:03:36,2020-04-16 21:03:36,0.051s,PASSED
+"if (scenario == ""pos"")",Chrome 80.0.3987.163,,,2020-04-16 21:03:36,2020-04-16 21:03:36,0.000s,PASSED
+"else if (scenario == ""neg"")",Chrome 80.0.3987.163,,,2020-04-16 21:03:36,2020-04-16 21:03:36,0.039s,PASSED
+takeScreenshot(),Chrome 80.0.3987.163,,,2020-04-16 21:03:36,2020-04-16 21:03:36,0.333s,PASSED
+delay(1),Chrome 80.0.3987.163,,,2020-04-16 21:03:36,2020-04-16 21:03:37,1.006s,PASSED
+,,,,,,,
+Test Cases/transaction,Chrome 80.0.3987.163,,,2020-04-16 21:03:37,2020-04-16 21:03:56,18.725s,FAILED
+"callTestCase(findTestCase(""login""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.163,,,2020-04-16 21:03:37,2020-04-16 21:03:51,13.533s,PASSED
+comment(note),Chrome 80.0.3987.163,,,2020-04-16 21:03:51,2020-04-16 21:03:51,0.001s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/saucedemo/label_Products""), 3)",Chrome 80.0.3987.163,,,2020-04-16 21:03:51,2020-04-16 21:03:51,0.033s,PASSED
+"click(findTestObject(""Object Repository/saucedemo/button_ADD TO CART""))",Chrome 80.0.3987.163,,,2020-04-16 21:03:51,2020-04-16 21:03:51,0.056s,PASSED
+"itemOnCart = getText(findTestObject(""Object Repository/saucedemo/label_numberOfItem""))",Chrome 80.0.3987.163,,,2020-04-16 21:03:51,2020-04-16 21:03:51,0.039s,PASSED
+"verifyNotMatch(itemOnCart, ""0"", false)",Chrome 80.0.3987.163,,,2020-04-16 21:03:51,2020-04-16 21:03:51,0.001s,PASSED
+"click(findTestObject(""Object Repository/saucedemo/button_cart""))",Chrome 80.0.3987.163,,,2020-04-16 21:03:51,2020-04-16 21:03:51,0.427s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/saucedemo/label_Your Cart""), 3)",Chrome 80.0.3987.163,,,2020-04-16 21:03:51,2020-04-16 21:03:51,0.038s,PASSED
+"click(findTestObject(""Object Repository/saucedemo/button_checkout""))",Chrome 80.0.3987.163,,,2020-04-16 21:03:51,2020-04-16 21:03:52,0.263s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/saucedemo/label_Checkout Your Information""), 3)",Chrome 80.0.3987.163,,,2020-04-16 21:03:52,2020-04-16 21:03:52,0.017s,PASSED
+"setText(findTestObject(""Object Repository/saucedemo/input_firstName""), firstName)",Chrome 80.0.3987.163,,,2020-04-16 21:03:52,2020-04-16 21:03:52,0.088s,PASSED
+"setText(findTestObject(""Object Repository/saucedemo/input_lastName""), lastName)",Chrome 80.0.3987.163,,,2020-04-16 21:03:52,2020-04-16 21:03:52,0.092s,PASSED
+"setText(findTestObject(""Object Repository/saucedemo/input_postalCode""), postalCode)",Chrome 80.0.3987.163,,,2020-04-16 21:03:52,2020-04-16 21:03:52,0.108s,PASSED
+"click(findTestObject(""Object Repository/saucedemo/button_continue""))",Chrome 80.0.3987.163,,,2020-04-16 21:03:52,2020-04-16 21:03:52,0.291s,PASSED
+"if (scenario == ""pos"")",Chrome 80.0.3987.163,,,2020-04-16 21:03:52,2020-04-16 21:03:52,0.000s,PASSED
+"else if (scenario == ""neg"")",Chrome 80.0.3987.163,,,2020-04-16 21:03:52,2020-04-16 21:03:56,3.716s,FAILED
