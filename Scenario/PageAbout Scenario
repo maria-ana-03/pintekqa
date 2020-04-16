@@ -1,0 +1,11 @@
+Note : to verify that page About is accessible
+
+Go to URL https://www.saucedemo.com/
+input username (standard_user)
+input password (secret_sauce)
+click login button
+
+verify label "Product" present
+click open menu button
+click menu about
+verify if link work properly

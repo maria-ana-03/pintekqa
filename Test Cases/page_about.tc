@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>page_about</name>
+   <tag></tag>
+   <comment>note</comment>
+   <testCaseGuid>a7d231a5-38f3-41b3-b6b8-ae2cadcbd9c8</testCaseGuid>
+   <variable>
+      <defaultValue>'verify that page About is accesible'</defaultValue>
+      <description></description>
+      <id>3149024a-170c-49eb-95d9-875256f983b3</id>
+      <masked>false</masked>
+      <name>note</name>
+   </variable>
+</TestCaseEntity>

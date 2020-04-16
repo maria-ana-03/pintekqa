@@ -1,0 +1,27 @@
+Note : to verify transaction process
+
+Go to URL https://www.saucedemo.com/
+input username (standard_user)
+input password (secret_sauce)
+click login button
+
+verify label "Product" present
+select product
+verify item on cart >=1 
+click cart button
+
+verify label "Your Cart" present
+click check out button
+
+verify label "Checkout: Your Information" present
+input first name
+input last name
+input zip/postal code
+click continue button
+if(scenario == success){
+	verify label "Checkout: Overview" present
+	click finish button
+	verify label "THANK YOU FOR YOUR ORDER" present
+} else if(scenario == failed) {
+	verify alert present
+}

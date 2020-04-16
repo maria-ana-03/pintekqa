@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+pageResetAppState,Chrome 80.0.3987.163,,,2020-04-16 15:54:28,2020-04-16 15:54:37,9.167s,FAILED
+,,,,,,,
+Test Cases/login,Chrome 80.0.3987.163,,,2020-04-16 15:54:29,2020-04-16 15:54:37,8.137s,PASSED
+"openBrowser(""https://www.saucedemo.com/"")",Chrome 80.0.3987.163,,,2020-04-16 15:54:29,2020-04-16 15:54:32,2.905s,PASSED
+delay(2),Chrome 80.0.3987.163,,,2020-04-16 15:54:32,2020-04-16 15:54:34,2.024s,PASSED
+"setText(findTestObject(""Object Repository/saucedemo/input_username""), ""standard_user"")",Chrome 80.0.3987.163,,,2020-04-16 15:54:34,2020-04-16 15:54:34,0.186s,PASSED
+"setText(findTestObject(""Object Repository/saucedemo/input_password""), ""secret_sauce"")",Chrome 80.0.3987.163,,,2020-04-16 15:54:34,2020-04-16 15:54:34,0.125s,PASSED
+"click(findTestObject(""Object Repository/saucedemo/button_login""))",Chrome 80.0.3987.163,,,2020-04-16 15:54:34,2020-04-16 15:54:36,1.669s,PASSED
+delay(1),Chrome 80.0.3987.163,,,2020-04-16 15:54:36,2020-04-16 15:54:37,1.004s,PASSED
+,,,,,,,
+Test Cases/page_resetAppState,Chrome 80.0.3987.163,,,2020-04-16 15:54:37,2020-04-16 15:54:37,0.665s,FAILED
+"callTestCase(findTestCase(""login""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.163,,,2020-04-16 15:54:37,2020-04-16 15:54:37,0.002s,NOT_RUN
+comment(note),Chrome 80.0.3987.163,,,2020-04-16 15:54:37,2020-04-16 15:54:37,0.005s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/saucedemo/label_Products""), 3)",Chrome 80.0.3987.163,,,2020-04-16 15:54:37,2020-04-16 15:54:37,0.037s,PASSED
+"click(findTestObject(""Object Repository/saucedemo/button_ADD TO CART""))",Chrome 80.0.3987.163,,,2020-04-16 15:54:37,2020-04-16 15:54:37,0.051s,PASSED
+"itemOnCart = getText(findTestObject(""Object Repository/saucedemo/label_numberOfItem""))",Chrome 80.0.3987.163,,,2020-04-16 15:54:37,2020-04-16 15:54:37,0.033s,PASSED
+"verifyNotMatch(itemOnCart, ""0"", false)",Chrome 80.0.3987.163,,,2020-04-16 15:54:37,2020-04-16 15:54:37,0.006s,PASSED
+"click(findTestObject(""Object Repository/saucedemo/button_open menu""))",Chrome 80.0.3987.163,,,2020-04-16 15:54:37,2020-04-16 15:54:37,0.072s,PASSED
+"click(findTestObject(""Object Repository/saucedemo/menu_Reset App State""))",Chrome 80.0.3987.163,,,2020-04-16 15:54:37,2020-04-16 15:54:37,0.058s,PASSED
+"click(findTestObject(""Object Repository/saucedemo/close menu""))",Chrome 80.0.3987.163,,,2020-04-16 15:54:37,2020-04-16 15:54:37,0.078s,PASSED
+"verifyElementNotPresent(findTestObject(""Object Repository/saucedemo/label_numberOfItem""), 3)",Chrome 80.0.3987.163,,,2020-04-16 15:54:37,2020-04-16 15:54:37,0.081s,PASSED
+"buttonLabel = getText(findTestObject(""Object Repository/saucedemo/button_ADD TO CART""))",Chrome 80.0.3987.163,,,2020-04-16 15:54:37,2020-04-16 15:54:37,0.032s,PASSED
+"verifyMatch(buttonLabel, ""ADD TO CART"", false)",Chrome 80.0.3987.163,,,2020-04-16 15:54:37,2020-04-16 15:54:37,0.009s,FAILED

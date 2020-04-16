@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="transaction" time="78" tests="4" failures="1" errors="0">
+   <testsuite name="transaction" tests="4" failures="1" errors="0" time="78" timestamp="2020-04-16 21:02:38" hostname="mariaana - 192.168.0.25" id="Test Suites/transaction">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/mariaana/Katalon Studio/Pintek.id/Reports/transaction/20200416_210236"/>
+         <property name="logFiles" value="/Users/mariaana/Katalon Studio/Pintek.id/Reports/transaction/20200416_210236/execution0.log"/>
+         <property name="attachments" value="/Users/mariaana/Katalon Studio/Pintek.id/Reports/transaction/20200416_210236/1587045774772.png, /Users/mariaana/Katalon Studio/Pintek.id/Reports/transaction/20200416_210236/1587045789810.png, /Users/mariaana/Katalon Studio/Pintek.id/Reports/transaction/20200416_210236/1587045802954.png, /Users/mariaana/Katalon Studio/Pintek.id/Reports/transaction/20200416_210236/1587045816409.png, /Users/mariaana/Katalon Studio/Pintek.id/Reports/transaction/20200416_210236/1587045835855.png, /Users/mariaana/Katalon Studio/Pintek.id/Reports/transaction/20200416_210236/1587045836195.png"/>
+         <property name="hostName" value="mariaana - 192.168.0.25"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="6.1.2.2"/>
+         <property name="browser" value="Chrome 80.0.3987.163"/>
+         <property name="hostAddress" value="192.168.0.25"/>
+         <property name="sessionId" value="ca849f2659ab99e9ddc78dff46317f33"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/transaction" classname="Test Cases/transaction" status="PASSED">
+         <system-out><![CDATA[2020-04-16 21:02:38 - [TEST_CASE][PASSED] - Test Cases/transaction: Test Cases/transaction
+
+2020-04-16 21:02:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/login' successfully
+
+2020-04-16 21:02:39 - [TEST_CASE][PASSED] - Test Cases/login: Test Cases/login
+
+2020-04-16 21:02:39 - [TEST_STEP][PASSED] - openBrowser("https://www.saucedemo.com/"): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2020-04-16 21:02:39 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2020-04-16 21:02:39 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-04-16 21:02:42 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2020-04-16 21:02:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-04-16 21:02:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-04-16 21:02:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/saucedemo/input_username"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/saucedemo/input_username'
+
+2020-04-16 21:02:45 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/saucedemo/input_username'
+
+2020-04-16 21:02:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/saucedemo/input_password"), "secret_sauce"): Text 'secret_sauce' is set on object 'Object Repository/saucedemo/input_password'
+
+2020-04-16 21:02:45 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/saucedemo/input_password'
+
+2020-04-16 21:02:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/saucedemo/button_login")): Object: 'Object Repository/saucedemo/button_login' is clicked on
+
+2020-04-16 21:02:50 - [MESSAGE][PASSED] - Object: 'Object Repository/saucedemo/button_login' is clicked on
+
+2020-04-16 21:02:50 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-04-16 21:02:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-04-16 21:02:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/login' successfully
+
+2020-04-16 21:02:51 - [TEST_STEP][PASSED] - comment(note): success
+
+2020-04-16 21:02:51 - [MESSAGE][INFO] - success
+
+2020-04-16 21:02:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/saucedemo/label_Products"), 3): Object 'Object Repository/saucedemo/label_Products' is present
+
+2020-04-16 21:02:52 - [MESSAGE][PASSED] - Object 'Object Repository/saucedemo/label_Products' is present
+
+2020-04-16 21:02:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/saucedemo/button_ADD TO CART")): Object: 'Object Repository/saucedemo/button_ADD TO CART' is clicked on
+
+2020-04-16 21:02:52 - [MESSAGE][PASSED] - Object: 'Object Repository/saucedemo/button_ADD TO CART' is clicked on
+
+2020-04-16 21:02:52 - [TEST_STEP][PASSED] - itemOnCart = getText(findTestObject("Object Repository/saucedemo/label_numberOfItem")): Text of object 'Object Repository/saucedemo/label_numberOfItem' is: '1'
+
+2020-04-16 21:02:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/saucedemo/label_numberOfItem' is: '1'
+
+2020-04-16 21:02:52 - [TEST_STEP][PASSED] - verifyNotMatch(itemOnCart, "0", false): Actual text '1' and expected text '0' are not matched 
+
+2020-04-16 21:02:52 - [MESSAGE][PASSED] - Actual text '1' and expected text '0' are not matched 
+
+2020-04-16 21:02:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/saucedemo/button_cart")): Object: 'Object Repository/saucedemo/button_cart' is clicked on
+
+2020-04-16 21:02:52 - [MESSAGE][PASSED] - Object: 'Object Repository/saucedemo/button_cart' is clicked on
+
+2020-04-16 21:02:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/saucedemo/label_Your Cart"), 3): Object 'Object Repository/saucedemo/label_Your Cart' is present
+
+2020-04-16 21:02:52 - [MESSAGE][PASSED] - Object 'Object Repository/saucedemo/label_Your Cart' is present
+
+2020-04-16 21:02:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/saucedemo/button_checkout")): Object: 'Object Repository/saucedemo/button_checkout' is clicked on
+
+2020-04-16 21:02:53 - [MESSAGE][PASSED] - Object: 'Object Repository/saucedemo/button_checkout' is clicked on
+
+2020-04-16 21:02:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/saucedemo/label_Checkout Your Information"), 3): Object 'Object Repository/saucedemo/label_Checkout Your Information' is present
+
+2020-04-16 21:02:53 - [MESSAGE][PASSED] - Object 'Object Repository/saucedemo/label_Checkout Your Information' is present
+
+2020-04-16 21:02:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/saucedemo/input_firstName"), firstName): Text 'first' is set on object 'Object Repository/saucedemo/input_firstName'
+
+2020-04-16 21:02:53 - [MESSAGE][PASSED] - Text 'first' is set on object 'Object Repository/saucedemo/input_firstName'
+
+2020-04-16 21:02:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/saucedemo/input_lastName"), lastName): Text 'name' is set on object 'Object Repository/saucedemo/input_lastName'
+
+2020-04-16 21:02:53 - [MESSAGE][PASSED] - Text 'name' is set on object 'Object Repository/saucedemo/input_lastName'
+
+2020-04-16 21:02:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/saucedemo/input_postalCode"), postalCode): Text '12345' is set on object 'Object Repository/saucedemo/input_postalCode'
+
+2020-04-16 21:02:53 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/saucedemo/input_postalCode'
+
+2020-04-16 21:02:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/saucedemo/button_continue")): Object: 'Object Repository/saucedemo/button_continue' is clicked on
+
+2020-04-16 21:02:53 - [MESSAGE][PASSED] - Object: 'Object Repository/saucedemo/button_continue' is clicked on
+
+2020-04-16 21:02:53 - [TEST_STEP][PASSED] - if (scenario == "pos"): Object 'Object Repository/saucedemo/label_THANK YOU FOR YOUR ORDER' is present
+
+2020-04-16 21:02:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/saucedemo/label_Checkout Overview"), 3): Object 'Object Repository/saucedemo/label_Checkout Overview' is present
+
+2020-04-16 21:02:53 - [MESSAGE][PASSED] - Object 'Object Repository/saucedemo/label_Checkout Overview' is present
+
+2020-04-16 21:02:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/saucedemo/button_finish")): Object: 'Object Repository/saucedemo/button_finish' is clicked on
+
+2020-04-16 21:02:54 - [MESSAGE][PASSED] - Object: 'Object Repository/saucedemo/button_finish' is clicked on
+
+2020-04-16 21:02:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/saucedemo/label_THANK YOU FOR YOUR ORDER"), 0): Object 'Object Repository/saucedemo/label_THANK YOU FOR YOUR ORDER' is present
+
+2020-04-16 21:02:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-16 21:02:54 - [MESSAGE][PASSED] - Object 'Object Repository/saucedemo/label_THANK YOU FOR YOUR ORDER' is present
+
+2020-04-16 21:02:54 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2020-04-16 21:02:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/mariaana/Katalon Studio/Pintek.id/Reports/transaction/20200416_210236/1587045774772.png]]
+
+2020-04-16 21:02:55 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-04-16 21:02:56 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/transaction" classname="Test Cases/transaction" status="PASSED">
+         <system-out><![CDATA[2020-04-16 21:02:56 - [TEST_CASE][PASSED] - Test Cases/transaction: Test Cases/transaction
+
+2020-04-16 21:02:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/login' successfully
+
+2020-04-16 21:02:56 - [TEST_CASE][PASSED] - Test Cases/login: Test Cases/login
+
+2020-04-16 21:02:56 - [TEST_STEP][PASSED] - openBrowser("https://www.saucedemo.com/"): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2020-04-16 21:02:56 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-04-16 21:02:56 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2020-04-16 21:02:58 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2020-04-16 21:02:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-04-16 21:03:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-04-16 21:03:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/saucedemo/input_username"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/saucedemo/input_username'
+
+2020-04-16 21:03:01 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/saucedemo/input_username'
+
+2020-04-16 21:03:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/saucedemo/input_password"), "secret_sauce"): Text 'secret_sauce' is set on object 'Object Repository/saucedemo/input_password'
+
+2020-04-16 21:03:01 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/saucedemo/input_password'
+
+2020-04-16 21:03:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/saucedemo/button_login")): Object: 'Object Repository/saucedemo/button_login' is clicked on
+
+2020-04-16 21:03:07 - [MESSAGE][PASSED] - Object: 'Object Repository/saucedemo/button_login' is clicked on
+
+2020-04-16 21:03:07 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-04-16 21:03:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-04-16 21:03:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/login' successfully
+
+2020-04-16 21:03:08 - [TEST_STEP][PASSED] - comment(note): firstName empty
+
+2020-04-16 21:03:08 - [MESSAGE][INFO] - firstName empty
+
+2020-04-16 21:03:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/saucedemo/label_Products"), 3): Object 'Object Repository/saucedemo/label_Products' is present
+
+2020-04-16 21:03:08 - [MESSAGE][PASSED] - Object 'Object Repository/saucedemo/label_Products' is present
+
+2020-04-16 21:03:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/saucedemo/button_ADD TO CART")): Object: 'Object Repository/saucedemo/button_ADD TO CART' is clicked on
+
+2020-04-16 21:03:08 - [MESSAGE][PASSED] - Object: 'Object Repository/saucedemo/button_ADD TO CART' is clicked on
+
+2020-04-16 21:03:08 - [TEST_STEP][PASSED] - itemOnCart = getText(findTestObject("Object Repository/saucedemo/label_numberOfItem")): Text of object 'Object Repository/saucedemo/label_numberOfItem' is: '1'
+
+2020-04-16 21:03:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/saucedemo/label_numberOfItem' is: '1'
+
+2020-04-16 21:03:08 - [TEST_STEP][PASSED] - verifyNotMatch(itemOnCart, "0", false): Actual text '1' and expected text '0' are not matched 
+
+2020-04-16 21:03:08 - [MESSAGE][PASSED] - Actual text '1' and expected text '0' are not matched 
+
+2020-04-16 21:03:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/saucedemo/button_cart")): Object: 'Object Repository/saucedemo/button_cart' is clicked on
+
+2020-04-16 21:03:09 - [MESSAGE][PASSED] - Object: 'Object Repository/saucedemo/button_cart' is clicked on
+
+2020-04-16 21:03:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/saucedemo/label_Your Cart"), 3): Object 'Object Repository/saucedemo/label_Your Cart' is present
+
+2020-04-16 21:03:09 - [MESSAGE][PASSED] - Object 'Object Repository/saucedemo/label_Your Cart' is present
+
+2020-04-16 21:03:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/saucedemo/button_checkout")): Object: 'Object Repository/saucedemo/button_checkout' is clicked on
+
+2020-04-16 21:03:09 - [MESSAGE][PASSED] - Object: 'Object Repository/saucedemo/button_checkout' is clicked on
+
+2020-04-16 21:03:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/saucedemo/label_Checkout Your Information"), 3): Object 'Object Repository/saucedemo/label_Checkout Your Information' is present
+
+2020-04-16 21:03:09 - [MESSAGE][PASSED] - Object 'Object Repository/saucedemo/label_Checkout Your Information' is present
+
+2020-04-16 21:03:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/saucedemo/input_firstName"), firstName): Text '' is set on object 'Object Repository/saucedemo/input_firstName'
+
+2020-04-16 21:03:09 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/saucedemo/input_firstName'
+
+2020-04-16 21:03:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/saucedemo/input_lastName"), lastName): Text 'name' is set on object 'Object Repository/saucedemo/input_lastName'
+
+2020-04-16 21:03:09 - [MESSAGE][PASSED] - Text 'name' is set on object 'Object Repository/saucedemo/input_lastName'
+
+2020-04-16 21:03:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/saucedemo/input_postalCode"), postalCode): Text '12345' is set on object 'Object Repository/saucedemo/input_postalCode'
+
+2020-04-16 21:03:09 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/saucedemo/input_postalCode'
+
+2020-04-16 21:03:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/saucedemo/button_continue")): Object: 'Object Repository/saucedemo/button_continue' is clicked on
+
+2020-04-16 21:03:09 - [MESSAGE][PASSED] - Object: 'Object Repository/saucedemo/button_continue' is clicked on
+
+2020-04-16 21:03:09 - [TEST_STEP][PASSED] - if (scenario == "pos"): null
+
+2020-04-16 21:03:09 - [TEST_STEP][PASSED] - else if (scenario == "neg"): Object 'Object Repository/saucedemo/alert' is present
+
+2020-04-16 21:03:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/saucedemo/alert"), 3): Object 'Object Repository/saucedemo/alert' is present
+
+2020-04-16 21:03:09 - [MESSAGE][PASSED] - Object 'Object Repository/saucedemo/alert' is present
+
+2020-04-16 21:03:09 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2020-04-16 21:03:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/mariaana/Katalon Studio/Pintek.id/Reports/transaction/20200416_210236/1587045789810.png]]
+
+2020-04-16 21:03:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-04-16 21:03:11 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/transaction" classname="Test Cases/transaction" status="PASSED">
+         <system-out><![CDATA[2020-04-16 21:03:11 - [TEST_CASE][PASSED] - Test Cases/transaction: Test Cases/transaction
+
+2020-04-16 21:03:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/login' successfully
+
+2020-04-16 21:03:11 - [TEST_CASE][PASSED] - Test Cases/login: Test Cases/login
+
+2020-04-16 21:03:11 - [TEST_STEP][PASSED] - openBrowser("https://www.saucedemo.com/"): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2020-04-16 21:03:11 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-04-16 21:03:11 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2020-04-16 21:03:13 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2020-04-16 21:03:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-04-16 21:03:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-04-16 21:03:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/saucedemo/input_username"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/saucedemo/input_username'
+
+2020-04-16 21:03:16 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/saucedemo/input_username'
+
+2020-04-16 21:03:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/saucedemo/input_password"), "secret_sauce"): Text 'secret_sauce' is set on object 'Object Repository/saucedemo/input_password'
+
+2020-04-16 21:03:16 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/saucedemo/input_password'
+
+2020-04-16 21:03:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/saucedemo/button_login")): Object: 'Object Repository/saucedemo/button_login' is clicked on
+
+2020-04-16 21:03:20 - [MESSAGE][PASSED] - Object: 'Object Repository/saucedemo/button_login' is clicked on
+
+2020-04-16 21:03:20 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-04-16 21:03:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-04-16 21:03:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/login' successfully
+
+2020-04-16 21:03:21 - [TEST_STEP][PASSED] - comment(note): lastName empty
+
+2020-04-16 21:03:21 - [MESSAGE][INFO] - lastName empty
+
+2020-04-16 21:03:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/saucedemo/label_Products"), 3): Object 'Object Repository/saucedemo/label_Products' is present
+
+2020-04-16 21:03:21 - [MESSAGE][PASSED] - Object 'Object Repository/saucedemo/label_Products' is present
+
+2020-04-16 21:03:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/saucedemo/button_ADD TO CART")): Object: 'Object Repository/saucedemo/button_ADD TO CART' is clicked on
+
+2020-04-16 21:03:21 - [MESSAGE][PASSED] - Object: 'Object Repository/saucedemo/button_ADD TO CART' is clicked on
+
+2020-04-16 21:03:21 - [TEST_STEP][PASSED] - itemOnCart = getText(findTestObject("Object Repository/saucedemo/label_numberOfItem")): Text of object 'Object Repository/saucedemo/label_numberOfItem' is: '1'
+
+2020-04-16 21:03:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/saucedemo/label_numberOfItem' is: '1'
+
+2020-04-16 21:03:21 - [TEST_STEP][PASSED] - verifyNotMatch(itemOnCart, "0", false): Actual text '1' and expected text '0' are not matched 
+
+2020-04-16 21:03:21 - [MESSAGE][PASSED] - Actual text '1' and expected text '0' are not matched 
+
+2020-04-16 21:03:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/saucedemo/button_cart")): Object: 'Object Repository/saucedemo/button_cart' is clicked on
+
+2020-04-16 21:03:22 - [MESSAGE][PASSED] - Object: 'Object Repository/saucedemo/button_cart' is clicked on
+
+2020-04-16 21:03:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/saucedemo/label_Your Cart"), 3): Object 'Object Repository/saucedemo/label_Your Cart' is present
+
+2020-04-16 21:03:22 - [MESSAGE][PASSED] - Object 'Object Repository/saucedemo/label_Your Cart' is present
+
+2020-04-16 21:03:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/saucedemo/button_checkout")): Object: 'Object Repository/saucedemo/button_checkout' is clicked on
+
+2020-04-16 21:03:22 - [MESSAGE][PASSED] - Object: 'Object Repository/saucedemo/button_checkout' is clicked on
+
+2020-04-16 21:03:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/saucedemo/label_Checkout Your Information"), 3): Object 'Object Repository/saucedemo/label_Checkout Your Information' is present
+
+2020-04-16 21:03:22 - [MESSAGE][PASSED] - Object 'Object Repository/saucedemo/label_Checkout Your Information' is present
+
+2020-04-16 21:03:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/saucedemo/input_firstName"), firstName): Text 'first' is set on object 'Object Repository/saucedemo/input_firstName'
+
+2020-04-16 21:03:22 - [MESSAGE][PASSED] - Text 'first' is set on object 'Object Repository/saucedemo/input_firstName'
+
+2020-04-16 21:03:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/saucedemo/input_lastName"), lastName): Text '' is set on object 'Object Repository/saucedemo/input_lastName'
+
+2020-04-16 21:03:22 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/saucedemo/input_lastName'
+
+2020-04-16 21:03:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/saucedemo/input_postalCode"), postalCode): Text '12345' is set on object 'Object Repository/saucedemo/input_postalCode'
+
+2020-04-16 21:03:22 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/saucedemo/input_postalCode'
+
+2020-04-16 21:03:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/saucedemo/button_continue")): Object: 'Object Repository/saucedemo/button_continue' is clicked on
+
+2020-04-16 21:03:22 - [MESSAGE][PASSED] - Object: 'Object Repository/saucedemo/button_continue' is clicked on
+
+2020-04-16 21:03:22 - [TEST_STEP][PASSED] - if (scenario == "pos"): null
+
+2020-04-16 21:03:22 - [TEST_STEP][PASSED] - else if (scenario == "neg"): Object 'Object Repository/saucedemo/alert' is present
+
+2020-04-16 21:03:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/saucedemo/alert"), 3): Object 'Object Repository/saucedemo/alert' is present
+
+2020-04-16 21:03:22 - [MESSAGE][PASSED] - Object 'Object Repository/saucedemo/alert' is present
+
+2020-04-16 21:03:22 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2020-04-16 21:03:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/mariaana/Katalon Studio/Pintek.id/Reports/transaction/20200416_210236/1587045802954.png]]
+
+2020-04-16 21:03:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-04-16 21:03:24 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/transaction" classname="Test Cases/transaction" status="PASSED">
+         <system-out><![CDATA[2020-04-16 21:03:24 - [TEST_CASE][PASSED] - Test Cases/transaction: Test Cases/transaction
+
+2020-04-16 21:03:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/login' successfully
+
+2020-04-16 21:03:24 - [TEST_CASE][PASSED] - Test Cases/login: Test Cases/login
+
+2020-04-16 21:03:24 - [TEST_STEP][PASSED] - openBrowser("https://www.saucedemo.com/"): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2020-04-16 21:03:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-04-16 21:03:24 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2020-04-16 21:03:26 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2020-04-16 21:03:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-04-16 21:03:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-04-16 21:03:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/saucedemo/input_username"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/saucedemo/input_username'
+
+2020-04-16 21:03:29 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/saucedemo/input_username'
+
+2020-04-16 21:03:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/saucedemo/input_password"), "secret_sauce"): Text 'secret_sauce' is set on object 'Object Repository/saucedemo/input_password'
+
+2020-04-16 21:03:29 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/saucedemo/input_password'
+
+2020-04-16 21:03:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/saucedemo/button_login")): Object: 'Object Repository/saucedemo/button_login' is clicked on
+
+2020-04-16 21:03:34 - [MESSAGE][PASSED] - Object: 'Object Repository/saucedemo/button_login' is clicked on
+
+2020-04-16 21:03:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-04-16 21:03:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-04-16 21:03:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/login' successfully
+
+2020-04-16 21:03:35 - [TEST_STEP][PASSED] - comment(note): postalCode empty
+
+2020-04-16 21:03:35 - [MESSAGE][INFO] - postalCode empty
+
+2020-04-16 21:03:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/saucedemo/label_Products"), 3): Object 'Object Repository/saucedemo/label_Products' is present
+
+2020-04-16 21:03:35 - [MESSAGE][PASSED] - Object 'Object Repository/saucedemo/label_Products' is present
+
+2020-04-16 21:03:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/saucedemo/button_ADD TO CART")): Object: 'Object Repository/saucedemo/button_ADD TO CART' is clicked on
+
+2020-04-16 21:03:35 - [MESSAGE][PASSED] - Object: 'Object Repository/saucedemo/button_ADD TO CART' is clicked on
+
+2020-04-16 21:03:35 - [TEST_STEP][PASSED] - itemOnCart = getText(findTestObject("Object Repository/saucedemo/label_numberOfItem")): Text of object 'Object Repository/saucedemo/label_numberOfItem' is: '1'
+
+2020-04-16 21:03:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/saucedemo/label_numberOfItem' is: '1'
+
+2020-04-16 21:03:35 - [TEST_STEP][PASSED] - verifyNotMatch(itemOnCart, "0", false): Actual text '1' and expected text '0' are not matched 
+
+2020-04-16 21:03:35 - [MESSAGE][PASSED] - Actual text '1' and expected text '0' are not matched 
+
+2020-04-16 21:03:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/saucedemo/button_cart")): Object: 'Object Repository/saucedemo/button_cart' is clicked on
+
+2020-04-16 21:03:35 - [MESSAGE][PASSED] - Object: 'Object Repository/saucedemo/button_cart' is clicked on
+
+2020-04-16 21:03:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/saucedemo/label_Your Cart"), 3): Object 'Object Repository/saucedemo/label_Your Cart' is present
+
+2020-04-16 21:03:35 - [MESSAGE][PASSED] - Object 'Object Repository/saucedemo/label_Your Cart' is present
+
+2020-04-16 21:03:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/saucedemo/button_checkout")): Object: 'Object Repository/saucedemo/button_checkout' is clicked on
+
+2020-04-16 21:03:36 - [MESSAGE][PASSED] - Object: 'Object Repository/saucedemo/button_checkout' is clicked on
+
+2020-04-16 21:03:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/saucedemo/label_Checkout Your Information"), 3): Object 'Object Repository/saucedemo/label_Checkout Your Information' is present
+
+2020-04-16 21:03:36 - [MESSAGE][PASSED] - Object 'Object Repository/saucedemo/label_Checkout Your Information' is present
+
+2020-04-16 21:03:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/saucedemo/input_firstName"), firstName): Text 'first' is set on object 'Object Repository/saucedemo/input_firstName'
+
+2020-04-16 21:03:36 - [MESSAGE][PASSED] - Text 'first' is set on object 'Object Repository/saucedemo/input_firstName'
+
+2020-04-16 21:03:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/saucedemo/input_lastName"), lastName): Text 'name' is set on object 'Object Repository/saucedemo/input_lastName'
+
+2020-04-16 21:03:36 - [MESSAGE][PASSED] - Text 'name' is set on object 'Object Repository/saucedemo/input_lastName'
+
+2020-04-16 21:03:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/saucedemo/input_postalCode"), postalCode): Text '' is set on object 'Object Repository/saucedemo/input_postalCode'
+
+2020-04-16 21:03:36 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/saucedemo/input_postalCode'
+
+2020-04-16 21:03:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/saucedemo/button_continue")): Object: 'Object Repository/saucedemo/button_continue' is clicked on
+
+2020-04-16 21:03:36 - [MESSAGE][PASSED] - Object: 'Object Repository/saucedemo/button_continue' is clicked on
+
+2020-04-16 21:03:36 - [TEST_STEP][PASSED] - if (scenario == "pos"): null
+
+2020-04-16 21:03:36 - [TEST_STEP][PASSED] - else if (scenario == "neg"): Object 'Object Repository/saucedemo/alert' is present
+
+2020-04-16 21:03:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/saucedemo/alert"), 3): Object 'Object Repository/saucedemo/alert' is present
+
+2020-04-16 21:03:36 - [MESSAGE][PASSED] - Object 'Object Repository/saucedemo/alert' is present
+
+2020-04-16 21:03:36 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2020-04-16 21:03:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/mariaana/Katalon Studio/Pintek.id/Reports/transaction/20200416_210236/1587045816409.png]]
+
+2020-04-16 21:03:36 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-04-16 21:03:37 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/transaction" classname="Test Cases/transaction" status="FAILED">
+         <failure type="FAILED" message="Test Cases/transaction FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/saucedemo/alert' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at transaction.run(transaction:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1587045756131.run(TempTestSuite1587045756131.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/saucedemo/alert' located by 'By.xpath: //*[@id=&quot;checkout_info_container&quot;]/div/form/h3' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-04-16 21:03:37 - [TEST_CASE][FAILED] - Test Cases/transaction: Test Cases/transaction FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/saucedemo/alert' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at transaction.run(transaction:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1587045756131.run(TempTestSuite1587045756131.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/saucedemo/alert' located by 'By.xpath: //*[@id="checkout_info_container"]/div/form/h3' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-04-16 21:03:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/login' successfully
+
+2020-04-16 21:03:37 - [TEST_CASE][PASSED] - Test Cases/login: Test Cases/login
+
+2020-04-16 21:03:37 - [TEST_STEP][PASSED] - openBrowser("https://www.saucedemo.com/"): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2020-04-16 21:03:37 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-04-16 21:03:37 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2020-04-16 21:03:42 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2020-04-16 21:03:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-04-16 21:03:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-04-16 21:03:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/saucedemo/input_username"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/saucedemo/input_username'
+
+2020-04-16 21:03:44 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/saucedemo/input_username'
+
+2020-04-16 21:03:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/saucedemo/input_password"), "secret_sauce"): Text 'secret_sauce' is set on object 'Object Repository/saucedemo/input_password'
+
+2020-04-16 21:03:44 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/saucedemo/input_password'
+
+2020-04-16 21:03:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/saucedemo/button_login")): Object: 'Object Repository/saucedemo/button_login' is clicked on
+
+2020-04-16 21:03:50 - [MESSAGE][PASSED] - Object: 'Object Repository/saucedemo/button_login' is clicked on
+
+2020-04-16 21:03:50 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-04-16 21:03:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-04-16 21:03:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/login' successfully
+
+2020-04-16 21:03:51 - [TEST_STEP][PASSED] - comment(note): postalCode using another character beside numeric 
+
+2020-04-16 21:03:51 - [MESSAGE][INFO] - postalCode using another character beside numeric 
+
+2020-04-16 21:03:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/saucedemo/label_Products"), 3): Object 'Object Repository/saucedemo/label_Products' is present
+
+2020-04-16 21:03:51 - [MESSAGE][PASSED] - Object 'Object Repository/saucedemo/label_Products' is present
+
+2020-04-16 21:03:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/saucedemo/button_ADD TO CART")): Object: 'Object Repository/saucedemo/button_ADD TO CART' is clicked on
+
+2020-04-16 21:03:51 - [MESSAGE][PASSED] - Object: 'Object Repository/saucedemo/button_ADD TO CART' is clicked on
+
+2020-04-16 21:03:51 - [TEST_STEP][PASSED] - itemOnCart = getText(findTestObject("Object Repository/saucedemo/label_numberOfItem")): Text of object 'Object Repository/saucedemo/label_numberOfItem' is: '1'
+
+2020-04-16 21:03:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/saucedemo/label_numberOfItem' is: '1'
+
+2020-04-16 21:03:51 - [TEST_STEP][PASSED] - verifyNotMatch(itemOnCart, "0", false): Actual text '1' and expected text '0' are not matched 
+
+2020-04-16 21:03:51 - [MESSAGE][PASSED] - Actual text '1' and expected text '0' are not matched 
+
+2020-04-16 21:03:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/saucedemo/button_cart")): Object: 'Object Repository/saucedemo/button_cart' is clicked on
+
+2020-04-16 21:03:51 - [MESSAGE][PASSED] - Object: 'Object Repository/saucedemo/button_cart' is clicked on
+
+2020-04-16 21:03:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/saucedemo/label_Your Cart"), 3): Object 'Object Repository/saucedemo/label_Your Cart' is present
+
+2020-04-16 21:03:51 - [MESSAGE][PASSED] - Object 'Object Repository/saucedemo/label_Your Cart' is present
+
+2020-04-16 21:03:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/saucedemo/button_checkout")): Object: 'Object Repository/saucedemo/button_checkout' is clicked on
+
+2020-04-16 21:03:52 - [MESSAGE][PASSED] - Object: 'Object Repository/saucedemo/button_checkout' is clicked on
+
+2020-04-16 21:03:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/saucedemo/label_Checkout Your Information"), 3): Object 'Object Repository/saucedemo/label_Checkout Your Information' is present
+
+2020-04-16 21:03:52 - [MESSAGE][PASSED] - Object 'Object Repository/saucedemo/label_Checkout Your Information' is present
+
+2020-04-16 21:03:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/saucedemo/input_firstName"), firstName): Text 'first' is set on object 'Object Repository/saucedemo/input_firstName'
+
+2020-04-16 21:03:52 - [MESSAGE][PASSED] - Text 'first' is set on object 'Object Repository/saucedemo/input_firstName'
+
+2020-04-16 21:03:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/saucedemo/input_lastName"), lastName): Text 'name' is set on object 'Object Repository/saucedemo/input_lastName'
+
+2020-04-16 21:03:52 - [MESSAGE][PASSED] - Text 'name' is set on object 'Object Repository/saucedemo/input_lastName'
+
+2020-04-16 21:03:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/saucedemo/input_postalCode"), postalCode): Text 'abcdef!@' is set on object 'Object Repository/saucedemo/input_postalCode'
+
+2020-04-16 21:03:52 - [MESSAGE][PASSED] - Text 'abcdef!@' is set on object 'Object Repository/saucedemo/input_postalCode'
+
+2020-04-16 21:03:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/saucedemo/button_continue")): Object: 'Object Repository/saucedemo/button_continue' is clicked on
+
+2020-04-16 21:03:52 - [MESSAGE][PASSED] - Object: 'Object Repository/saucedemo/button_continue' is clicked on
+
+2020-04-16 21:03:52 - [TEST_STEP][PASSED] - if (scenario == "pos"): null
+
+2020-04-16 21:03:52 - [TEST_STEP][FAILED] - else if (scenario == "neg"): Unable to verify object 'Object Repository/saucedemo/alert' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/saucedemo/alert' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at transaction.run(transaction:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1587045756131.run(TempTestSuite1587045756131.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/saucedemo/alert' located by 'By.xpath: //*[@id="checkout_info_container"]/div/form/h3' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-04-16 21:03:52 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("Object Repository/saucedemo/alert"), 3): Unable to verify object 'Object Repository/saucedemo/alert' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/saucedemo/alert' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at transaction.run(transaction:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1587045756131.run(TempTestSuite1587045756131.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/saucedemo/alert' located by 'By.xpath: //*[@id="checkout_info_container"]/div/form/h3' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-04-16 21:03:55 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="checkout_info_container"]/div/form/h3'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-04-16 21:03:56 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/saucedemo/alert' located by 'By.xpath: //*[@id="checkout_info_container"]/div/form/h3' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/saucedemo/alert' located by 'By.xpath: //*[@id="checkout_info_container"]/div/form/h3' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at transaction.run(transaction:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1587045756131.run(TempTestSuite1587045756131.groovy:35)
+)
+[[ATTACHMENT|/Users/mariaana/Katalon Studio/Pintek.id/Reports/transaction/20200416_210236/1587045835855.png]]
+
+2020-04-16 21:03:56 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/saucedemo/alert' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/saucedemo/alert' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at transaction.run(transaction:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1587045756131.run(TempTestSuite1587045756131.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/saucedemo/alert' located by 'By.xpath: //*[@id="checkout_info_container"]/div/form/h3' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|/Users/mariaana/Katalon Studio/Pintek.id/Reports/transaction/20200416_210236/1587045836195.png]]]]></system-out>
+         <system-err><![CDATA[2020-04-16 21:03:37 - [TEST_CASE][FAILED] - Test Cases/transaction: Test Cases/transaction FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/saucedemo/alert' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at transaction.run(transaction:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1587045756131.run(TempTestSuite1587045756131.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/saucedemo/alert' located by 'By.xpath: //*[@id="checkout_info_container"]/div/form/h3' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-04-16 21:02:38 - [TEST_SUITE][FAILED] - transaction: Test Cases/transaction FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/saucedemo/alert' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at transaction.run(transaction:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1587045756131.run(TempTestSuite1587045756131.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/saucedemo/alert' located by 'By.xpath: //*[@id="checkout_info_container"]/div/form/h3' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-04-16 21:02:38 - [TEST_SUITE][FAILED] - transaction: Test Cases/transaction FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/saucedemo/alert' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at transaction.run(transaction:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1587045756131.run(TempTestSuite1587045756131.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/saucedemo/alert' located by 'By.xpath: //*[@id="checkout_info_container"]/div/form/h3' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

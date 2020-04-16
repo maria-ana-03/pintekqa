@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>transaction</name>
+   <tag></tag>
+   <comment>note</comment>
+   <testCaseGuid>125c5682-8197-4453-8992-15a82c251db3</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f3f3dcb2-8cca-4efc-978d-2880d15f5bec</id>
+      <masked>false</masked>
+      <name>firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>839a8220-ef41-45ec-bf4a-9af0fc61cef3</id>
+      <masked>false</masked>
+      <name>lastName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f50145b5-df60-450d-b4fc-c9691088b6a4</id>
+      <masked>false</masked>
+      <name>postalCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'neg'</defaultValue>
+      <description></description>
+      <id>0349f761-cdd4-491c-a600-a7f0cb38bf92</id>
+      <masked>false</masked>
+      <name>scenario</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7ef92185-2304-41b6-bf55-e5c70a1499a7</id>
+      <masked>false</masked>
+      <name>note</name>
+   </variable>
+</TestCaseEntity>
